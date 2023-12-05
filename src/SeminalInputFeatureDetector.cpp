@@ -291,7 +291,6 @@ void SeminalInputFeatureDetector::cursorFinder() {
                     clang_visitChildren( cursorObjs[i], this->whileStmtBranch, this );
                     break;
                 default:
-                    std::cout << "am i dumb af?" << cursorObjs[i].kind << "\n";
                     break;
             }
 
